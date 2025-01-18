@@ -1,0 +1,65 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #efeded; 
+}
+
+.card{
+  width: 400px;
+  border: solid 8px;
+}
+.card_avatar{
+  text-align: center;
+  
+}
+.card_intro
+{
+  margin-left: 50px;
+  margin-right: 50px;
+  border: solid 2px
+  
+ 
+}
+.name{
+  font-family: "Times New Roman", Times, serif
+}
+.intro{
+  padding: 10px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif
+  
+}
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+}
+.html {
+  background-color: blue;
+}
+
+.javascript {
+  background-color: red;
+}
+
+.react {
+  background-color: green;
+}
+
+.git {
+  background-color: brown;
+}
+
+.node {
+  background-color: rgb(80, 80, 196);
+}
